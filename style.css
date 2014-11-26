@@ -21,6 +21,9 @@ a:hover{ text-decoration: underline; }
 .opacity-1{
   opacity: 1 !important;
 }
+.text-center{
+  text-align: center;
+}
 
 .logo-header{
   display: inline-block;
@@ -41,11 +44,24 @@ a:hover{ text-decoration: underline; }
   color: #fff !important;
 }
 
+#mc_embed_signup{
+  margin: 13px auto 111px auto;
+  background: transparent !important;
+  width: 360px;
+}
+  #mc_embed_signup .button{
+    background-color: orange !important;
+    width: 350px !important;
+  }
+  #mc_embed_signup input.email{
+    width: 350px !important;
+  }
+
 /* .pure-button {background-color: #2e2e2d; color:white;} */
 
-
+.banner{padding: 0 !important}
 .maincontent-wrapper{ padding:0 60px 0;}
-.maincontent{max-width:1188px; margin: 0 auto;}
+.maincontent{max-width:1188px; margin: 0 auto; padding: 44px 0;}
 .maincontent-wrapper.red-pattern{ background: url(images/pattern-bg.jpg);box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 40;}
@@ -66,10 +82,13 @@ body.landing-page .timely-insight h2{margin-bottom:0;}
 .bottom-sec p{font-size:1.2em;}
 .bottom-sec .leftsec{ float: left;}
 .bottom-sec .rightsec{text-align: right; float:right;}
-.landing-footer{ font-size:1.3em; padding-left:30%; padding-top: 30px;}
+.landing-footer{ font-size:1.3em; }
+.footer{
+  font-size: 13px;
+}
 
 @media only screen and (min-width : 992px) {
-.landing-footer{ padding-left:450px;}
+/* .landing-footer{ padding-left:450px;} */
 .whyrentalgeek .col-md-5 {
     width: 37.667%;
 }
