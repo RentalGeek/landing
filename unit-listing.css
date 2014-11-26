@@ -10,7 +10,7 @@ a:hover{ text-decoration: underline; }
 /* .pure-button {background-color: #2e2e2d; color:white;} */
 
 
-.maincontent-wrapper{ padding: 60px 15px;}
+.maincontent-wrapper{ padding:0 60px 0;}
 .maincontent{max-width:1188px; margin: 0 auto;}
 .maincontent-wrapper.red-pattern{ background: url(images/pattern-bg.jpg);box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
     position: relative;
